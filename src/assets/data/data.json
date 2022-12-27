@@ -1,0 +1,97 @@
+{
+    "name": "Ailen De Santis",
+    "position": "Full Stack Developer Jr",
+    "about": "Full Stack Developer, Bachelor of Film and TV and Piano Teacher",
+
+    "experience": [{
+        "position":"Full Stack Developer [Academic]",
+        "company": "Henry",
+        "date": "2022"
+    },
+    {
+        "position":"Photographer",
+        "company": "Independient Profesional",
+        "date": "2019 - 2021"
+    },
+    {
+        "position":"Web series chapter general direction internship",
+        "company": "Universidad Nacional de Córdoba",
+        "date": "2019"
+    },
+    {
+        "position":"College practice. Intern in photography and camera",
+        "company": "Universidad Nacional de Córdoba",
+        "date": "2019"
+    }],
+
+    "education": [{
+        "academy": "Argentina Programa",
+        "title": "Full Stack Developer",
+        "date": "Jun 2022 - May 2023"
+    },
+    {
+        "academy": "Henry",
+        "title": "Full Stack Developer",
+        "date": "Mar 2022 - Oct 2022"
+    },{
+        "academy": "Universidad Nacional de Córdoba",
+        "title": "Degree in Film and Television",
+        "date": "2015 - 2021"
+    },{
+        "academy": "Colegio Nuestra Señora Inmaculada",
+        "title": "Secondary degree oriented to economics and management of organizations",
+        "date": "2009 - 2014"
+    },{
+        "academy": "Conservatorio Iberoamericano Rossini",
+        "title": "Piano, theory and music theory teacher",
+        "date": "2006 - 2011"
+    }],
+
+    "courses": [{
+        "academy": "Platzi",
+        "title": "Git and GitHub Professional Course",
+        "date": "Oct 2022"   
+    },{
+        "academy": "OpenBootcamp",
+        "title": "Introduction to Programming",
+        "date": "Oct 2022"
+    },{
+        "academy": "El Photo Club",
+        "title": "Retouch with camera raw in Lightroom",
+        "date": "2022"
+    },{
+        "academy": "Platzi",
+        "title": "Practical Foundations of Machine Learning",
+        "date": "Oct 2021"
+    },{
+        "academy": "Platzi",
+        "title": "Basic course of Algorithms and Logical Thinking",
+        "date": "Sep 2021"
+    },{
+        "academy": "Píldoras Informáticas",
+        "title": "Basic Python",
+        "date": "Aug 2021 - Sep 2021"
+    },{
+        "academy": "Platzi",
+        "title": "Business Analysis for Data Science",
+        "date": "Aug 2021"
+    },{
+        "academy": "Platzi",
+        "title": "Investment in Cryptocurrencies",
+        "date": "May 2020"
+    },{
+        "academy": "FICDE",
+        "title": "Practical theoretical course of cardio-pulmonary resuscitation (CPR) and first aid",
+        "date": "Mar 2018"
+    }],
+
+    "projects": [{
+        "name": "Developets",
+        "description": "Group final project carried out during the course of the 'Soy Henry' bootcamp. It is an e-commerce or online petshop called 'Developets' for the purchase of various products for pets. Built to be used as both user and administrator. It includes searches, filters, favorites, shopping cart, payment gateway, comments and reviews section with their respective rating, admin dashboard with the functionalities relevant. Technologies: Javascript | React | Redux | Node.js | HTML | CSS | Express | Sequelize | Postrgres | ",
+        "repository": "https://github.com/alberto8812/Pet-store-ecommerce"
+    },{
+        "name": "Countries App",
+        "description": "Individual project developed during the 'Soy Henry' Bootcamp course. Development of a SPA (Single Page Application) using React for the Front End and Redux as state management. All components were developed with CSS without the use of external libraries. The SPA consumes data from an API through a Back End developed in Node.JS using Express, adding new functionality to the original API. Some features of the project: Search cache, ordering and filters, creation form, etc. The theme of this application is about existing countries. It has a landing page, a home where you can find the list of countries with the corresponding filters, a detail area where you can access the pertinent information of the country in question and, finally, a creation form to assign a new tourist activity to said country.",
+        "repository": "https://github.com/AilenDeSantis/PI-Countries"    
+    }]
+}

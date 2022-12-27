@@ -1,0 +1,36 @@
+<div class="experience bodyy">
+    <!-- BOTONES -->
+    <button class="add add2"><i class="bi bi-plus-lg"></i></button>
+    <button class="edit edit2"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete2"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit3"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete3"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit4"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete4"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit5"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete5"><i class="bi bi-x-lg"></i></button>
+    <!-- FIN BOTONES -->
+    <h1 class="tituloexp">Experience</h1>
+    <ul style="list-style: none" class="listexp">
+        <li class="itemsexp" *ngFor="let item of experience">
+          <h4>{{item.position}}</h4>
+            <p>{{item.company}}</p>
+            <p>{{item.date}}</p>
+        </li>
+        <!-- <li class="itemsexpb"> TODOS ESTOS LI LOS SACO XQ EL NG FOR LOS RECORRE A TODOS
+          <h4>Photographer</h4>
+            <p>Independent Professional </p>
+            <p>2019-2021</p>
+        </li>
+        <li class="itemsexp">
+          <h4>Web series chapter general direction internship</h4>
+            <p>Universidad Nacional de Córdoba</p>
+            <p>2019</p>
+        </li>
+        <li class="itemsexpb">
+          <h4>College practice. Intern in photography and camera</h4>
+            <p>Universidad Nacional de Córdoba</p>
+            <p>2019</p>
+        </li> -->
+    </ul>
+</div>

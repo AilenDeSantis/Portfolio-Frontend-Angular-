@@ -1,0 +1,31 @@
+<div class="courses bodyy">
+    <h1 class="titulocur">Courses</h1>
+    <!-- BOTONES -->
+    <button class="add add4"><i class="bi bi-plus-lg"></i></button>
+    <button class="edit edit11"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete11"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit12"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete12"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit13"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete13"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit14"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete14"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit15"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete15"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit16"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete16"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit17"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete17"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit18"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete18"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit19"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete19"><i class="bi bi-x-lg"></i></button>
+
+    <ul style="list-style: none" class="listcur">
+      <li class="itemscur" *ngFor="let item of courses">
+        <h4>{{item.academy}}</h4>
+          <p>{{item.title}}</p>
+          <p>{{item.date}}</p>
+      </li>
+    </ul>
+</div>

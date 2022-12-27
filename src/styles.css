@@ -1,0 +1,714 @@
+.bodyy{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+/* HEADER */
+.header{
+    background-color: black;
+    color: rgb(240, 208, 240);
+    height: 40em;
+   
+}
+
+.nombreg{
+    position: relative;
+    left: 0.5em;
+    top: 0.5em;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.linkedin{
+    position: absolute;
+    left: 34em;
+    top: 0.5em;
+    font-size: 2em;
+}
+
+.instagram{
+    position: absolute;
+    left: 36em;
+    top: 0.5em;
+    font-size: 2em;
+    color:#ef5773
+}
+
+.github{
+    position: absolute;
+    left: 38em;
+    top: 0.5em;
+    font-size: 2em;
+    color: white
+}
+
+.login{
+    position: absolute;
+    left: 79em;
+    top: 22px;
+    border-radius: 4px;
+    background-color:  #fad4eb;
+    border-color: blueviolet;
+    border-width: 0.1px;
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.login:hover {
+    background-color: #e7a2f8;
+    color: rgb(0, 0, 0);
+    transition: background-color .5s;
+}
+
+.banner {
+    height: 50vh;
+    width: 190vh;
+    position: relative;
+    left: 0;
+    top: 7em;
+    border-radius: 4px;
+    border-color: violet;
+    border-width: 4em;
+    margin: 3em;
+}
+
+/* SECCION PRESENTACIÓN */
+.mifoto {
+    height: 50vh;
+    width: 64vh;
+    position: relative;
+    left: 0;
+    border-radius: 20px;
+    border-color: violet;
+    border-width: 40px;
+    margin: 3em;
+    box-shadow: 0 16px 24px 0 rgba(147, 45, 149, 0.573);
+}
+
+.nombre{
+    position: absolute;
+    left: 15em;
+    top: 17.5em;
+    font-family: monospace;
+}
+
+.rol{
+    position: absolute;
+    left: 25em;
+    top: 32em
+}
+
+.about{
+    position: absolute;
+    left: 18.7em;
+    top: 26.5em
+}
+
+.abouttext{
+    position: absolute;
+    left: 37.5em;
+    top: 56em
+}
+
+/* SECCIÓN EXPERIENCIA */
+.experience {
+    /* background-color: #ef5773; */
+    padding: 0.2em;
+    color: rgb(40, 35, 35);
+    background-image: radial-gradient(circle at 116.45% 25.82%, #fd9661 0, #ff8b63 8.33%, #ff7e66 16.67%, #ff7169 25%, #fd616e 33.33%, #f95072 41.67%, #f23c78 50%, #e9257f 58.33%, #df0588 66.67%, #d20092 75%, #c3009d 83.33%, #b100a9 91.67%, #9c11b5 100%);
+}
+
+.tituloexp {
+    position: relative;
+    left: 1em;
+    padding: 0.3em;
+}
+
+.listexp{
+    position: relative;
+    left: 1em;
+}
+
+.itemsexp{
+    border: gray;
+    background-color: rgb(222, 146, 179);
+    width: 40em;
+    border-radius: 10px;
+    padding: 4px;
+    padding-left: 15px;
+    margin: 2px;
+}
+
+.itemsexpb{
+    border: gray;
+    background-color: rgb(245, 193, 215);
+    width: 40em;
+    border-radius: 10px;
+    padding: 4px;
+    padding-left: 15px;
+    margin: 2px;
+}
+
+/* SECCIÓN EDUCACIÓN */
+
+.education {
+    /* background-color: #ef57732a; */
+    padding: 0.2em;
+    color: rgb(40, 35, 35);
+    background-image: radial-gradient(circle at 114.09% 20.12%, #ffdee3 0, #ffdee0 5%, #ffdfdc 10%, #ffdfd9 15%, #ffe0d6 20%, #ffe1d4 25%, #fee2d1 30%, #fce3d0 35%, #f9e4ce 40%, #f6e5cd 45%, #f2e6cd 50%, #eee7cd 55%, #eae8ce 60%, #e6e9cf 65%, #e2ead1 70%, #deebd3 75%, #daecd5 80%, #d6edd8 85%, #d2eedb 90%, #cfeedf 95%, #ccefe2 100%);
+    }
+
+.tituloedu {
+    position: relative;
+    left: 1em;
+    padding: 0.3em;
+}
+
+.listedu{
+    position: relative;
+    left: 1em;
+}
+
+.itemsedu{
+    border: gray;
+    background-color: rgb(186, 156, 206);
+    width: 40em;
+    border-radius: 10px;
+    padding: 4px;
+    padding-left: 15px;
+    margin: 2px;
+}
+
+.itemsedub{
+    border: gray;
+    background-color: rgba(127, 81, 141, 0.798);
+    width: 40em;
+    border-radius: 10px;
+    padding: 4px;
+    padding-left: 15px;
+    margin: 2px;
+}
+
+/* SECCIÓN CURSOS */
+
+.courses {
+    /* background-color: #573de9; */
+    padding: 0.2em;
+    color: rgb(40, 35, 35);
+    background-image: radial-gradient(circle at 89.8% 16.61%, #e75aea 0, #ca4eed 16.67%, #a744f0 33.33%, #783cf2 50%, #1d38f4 66.67%, #0039f5 83.33%, #003bf7 100%);
+}
+
+.titulocur {
+    position: relative;
+    left: 1em;
+    padding: 0.3em;
+}
+
+.listcur{
+    position: relative;
+    left: 1em;
+}
+
+.itemscur{
+    border: gray;
+    background-color: rgb(158, 156, 206);
+    width: 40em;
+    border-radius: 10px;
+    padding: 4px;
+    padding-left: 15px;
+    margin: 2px;
+}
+
+.itemscurb{
+    border: gray;
+    background-color: rgba(84, 83, 173, 0.798);
+    width: 40em;
+    border-radius: 10px;
+    padding: 4px;
+    padding-left: 15px;
+    margin: 2px;
+}
+
+/* SECCIÓN SKILLS */
+
+/* .progress {
+    width: 150px;
+    height: 150px;
+    background: none;
+    position: relative;
+  }
+
+  .progress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid rgb(238, 238, 238);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+
+  .progress .progress-left {
+    left: 0;
+  }
+
+  .progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+
+  }
+
+  .progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+  }
+
+  .progress .progress-right {
+    right: 0;
+  }
+
+  .progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+  }
+
+  .progress .progress-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+  } */
+
+.skills{
+    padding: 0.2em;
+    color: rgb(40, 35, 35);
+    background-image: radial-gradient(circle at 109.86% 50%, #ffdfda 0, #ffdfd8 6.25%, #ffe0d5 12.5%, #ffe1d3 18.75%, #fee2d1 25%, #fbe3cf 31.25%, #f8e4ce 37.5%, #f5e5cd 43.75%, #f2e6cd 50%, #eee7cd 56.25%, #ebe8ce 62.5%, #e7e9cf 68.75%, #e3ead0 75%, #dfebd2 81.25%, #dcecd4 87.5%, #d8edd7 93.75%, #d5edda 100%);}
+
+.tituloski {
+    position: relative;
+    left: 1em;
+    padding: 0.3em;
+}
+
+.progress-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 20px
+}
+
+.progress {
+    height: 20px;
+    background: #333;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible
+}
+
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s
+}
+
+.progress .progress-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    top: -30px;
+    right: -25px
+}
+
+.progress .progress-bar:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -5px;
+    z-index: 1;
+    transform: rotate(35deg)
+}
+
+
+/* SECCIÓN PROYECTOS */
+
+.projects{
+    padding: 0.2em;
+    color: rgb(40, 35, 35);
+    background-image: linear-gradient(175deg, #ffaa70 0, #ff9c7b 8.33%, #ff8e83 16.67%, #ff7f8a 25%, #ff708d 33.33%, #ff618d 41.67%, #f25389 50%, #d34683 58.33%, #b83d7d 66.67%, #9f3678 75%, #893174 83.33%, #762e71 91.67%, #662d6f 100%);
+}
+
+.titulopro {
+    position: relative;
+    left: 1em;
+    padding: 0.3em;
+}
+
+.textpro{
+    position: relative;
+    left: 1.7em;
+    padding: 0.3em;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* BOTONES EDIT, ADD Y DELETE */
+
+/* ADD */
+.add{
+    border-radius: 6px;
+    border: none;cursor: pointer;
+    background-color: #f2cde498;
+}
+
+.add:hover{
+    background-color: #e57fffa4;
+    transition: background-color .5s;
+}
+
+.add2{
+    position: absolute;
+    left: 79em;
+    top: 69em;
+}
+
+.add3{
+    position: absolute;
+    left: 79em;
+    top: 106em;
+}
+
+.add4{
+    position: absolute;
+    left: 79em;
+    top: 153em;
+}
+
+.add5{
+    position: absolute;
+    left: 79em;
+    top: 230em;
+}
+
+.add6{
+    position: absolute;
+    left: 79em;
+    top: 346em;
+}
+
+/* EDIT */
+.edit{
+    border-radius: 6px;
+    border: none;
+    background-color: #f2cde498;
+}
+
+.edit:hover{
+    background-color: #e57fffa4;
+    transition: background-color .5s;
+    /* #ff7fbfa4; */
+}
+
+.edit1{
+    position: absolute;
+    left: 77em;
+    top: 43em;
+}
+
+.edit2{
+    position: absolute;
+    left: 45em;
+    top: 72em;
+}
+
+.edit3{
+    position: absolute;
+    left: 45em;
+    top: 80em;
+}
+
+.edit4{
+    position: absolute;
+    left: 45em;
+    top: 88em;
+}
+
+.edit5{
+    position: absolute;
+    left: 45em;
+    top: 96em;
+}
+
+.edit6{
+    position: absolute;
+    left: 45em;
+    top: 110em;
+} 
+
+.edit7{
+    position: absolute;
+    left: 45em;
+    top: 118em;
+}
+
+.edit8{
+    position: absolute;
+    left: 45em;
+    top: 126em;
+} 
+
+.edit9{
+    position: absolute;
+    left: 45em;
+    top: 134em;
+} 
+
+.edit10{
+    position: absolute;
+    left: 45em;
+    top: 142em;
+} 
+
+.edit11{
+    position: absolute;
+    left: 45em;
+    top: 156em;
+} 
+
+.edit12{
+    position: absolute;
+    left: 45em;
+    top: 164em;
+} 
+
+.edit13{
+    position: absolute;
+    left: 45em;
+    top: 172em;
+} 
+
+.edit14{
+    position: absolute;
+    left: 45em;
+    top: 180em;
+} 
+
+.edit15{
+    position: absolute;
+    left: 45em;
+    top: 188em;
+} 
+
+.edit16{
+    position: absolute;
+    left: 45em;
+    top: 196em;
+} 
+
+.edit17{
+    position: absolute;
+    left: 45em;
+    top: 204em;
+} 
+
+.edit18{
+    position: absolute;
+    left: 45em;
+    top: 212em;
+} 
+
+.edit19{
+    position: absolute;
+    left: 45em;
+    top: 220em;
+} 
+
+.edit20{
+    position: absolute;
+    left: 79em;
+    top: 350em;
+} 
+
+.edit21{
+    position: absolute;
+    left: 79em;
+    top: 362em;
+} 
+
+/*
+.edit2:hover{
+    background-color: #e57fffa4;
+    ;
+} */
+    /* #ff7fbfa4;
+/*  */
+
+/* DELETE */
+
+.delete{
+    border-radius: 6px;
+    border: none;cursor: pointer;
+    background-color: #f2cde498;
+}
+
+.delete:hover{
+    background-color: #e57fffa4;
+    transition: background-color .5s;
+}
+
+.delete1{
+    position: absolute;
+    left: 79em;
+    top: 43em;
+}
+
+.delete2{
+    position: absolute;
+    left: 45em;
+    top: 74em;
+}
+
+.delete3{
+    position: absolute;
+    left: 45em;
+    top: 82em;
+}
+
+.delete4{
+    position: absolute;
+    left: 45em;
+    top: 90em;
+}
+
+.delete5{
+    position: absolute;
+    left: 45em;
+    top: 98em;
+}
+
+.delete6{
+    position: absolute;
+    left: 45em;
+    top: 112em;
+}
+
+.delete7{
+    position: absolute;
+    left: 45em;
+    top: 120em;
+}
+
+.delete8{
+    position: absolute;
+    left: 45em;
+    top: 128em;
+}
+
+.delete9{
+    position: absolute;
+    left: 45em;
+    top: 136em;
+}
+
+.delete10{
+    position: absolute;
+    left: 45em;
+    top: 144em;
+}
+
+.delete11{
+    position: absolute;
+    left: 45em;
+    top: 158em;
+}
+
+.delete12{
+    position: absolute;
+    left: 45em;
+    top: 166em;
+}
+
+.delete13{
+    position: absolute;
+    left: 45em;
+    top: 174em;
+}
+
+.delete14{
+    position: absolute;
+    left: 45em;
+    top: 182em;
+}
+
+.delete15{
+    position: absolute;
+    left: 45em;
+    top: 190em;
+}
+
+.delete16{
+    position: absolute;
+    left: 45em;
+    top: 198em;
+}
+
+.delete17{
+    position: absolute;
+    left: 45em;
+    top: 206em;
+}
+
+.delete18{
+    position: absolute;
+    left: 45em;
+    top: 214em;
+}
+
+.delete19{
+    position: absolute;
+    left: 45em;
+    top: 222em;
+}
+
+.delete20{
+    position: absolute;
+    left: 81em;
+    top: 350em;
+}
+
+.delete21{
+    position: absolute;
+    left: 81em;
+    top: 362em;
+}

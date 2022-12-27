@@ -1,0 +1,23 @@
+<div class="education bodyy">
+    <!-- BOTONES -->
+    <button class="add add3"><i class="bi bi-plus-lg"></i></button>
+    <button class="edit edit6"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete6"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit7"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete7"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit8"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete8"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit9"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete9"><i class="bi bi-x-lg"></i></button>
+    <button class="edit edit10"><i class="bi bi-pencil-fill"></i></button>
+    <button class="delete delete10"><i class="bi bi-x-lg"></i></button>
+
+    <h1 class="tituloedu">Education</h1>
+    <ul style="list-style: none" class="listedu">
+      <li class="itemsedu" *ngFor="let item of education">
+        <h4>{{item.academy}}</h4>
+          <p>{{item.title}}</p>
+          <p>{{item.date}}</p>
+      </li>
+    </ul>
+</div>
